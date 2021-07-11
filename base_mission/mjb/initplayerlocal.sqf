@@ -1,10 +1,5 @@
 0 = execVM 'loadouts\arsenal.sqf';
 
-/* if (SafestartisActive == false) then
-{
-	[true] call TMF_safestart_fnc_end;
-}; */
-
 //workaround for magazines being slurped into weapons
 sleep 5;
 _primMags = primaryWeaponMagazine player;
